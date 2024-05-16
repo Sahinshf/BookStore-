@@ -1,0 +1,144 @@
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\appsettings.Development.json
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\appsettings.json
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\LoginRegisterProject.staticwebassets.runtime.json
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\LoginRegisterProject.exe
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\LoginRegisterProject.deps.json
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\LoginRegisterProject.runtimeconfig.json
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\LoginRegisterProject.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\LoginRegisterProject.pdb
+D:\temp\LoginRegisterProject\obj\Debug\net6.0\LoginRegisterProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\temp\LoginRegisterProject\obj\Debug\net6.0\LoginRegisterProject.AssemblyInfoInputs.cache
+D:\temp\LoginRegisterProject\obj\Debug\net6.0\LoginRegisterProject.AssemblyInfo.cs
+D:\temp\LoginRegisterProject\obj\Debug\net6.0\LoginRegisterProject.csproj.CoreCompileInputs.cache
+D:\temp\LoginRegisterProject\obj\Debug\net6.0\LoginRegisterProject.MvcApplicationPartsAssemblyInfo.cache
+D:\temp\LoginRegisterProject\obj\Debug\net6.0\staticwebassets.build.json
+D:\temp\LoginRegisterProject\obj\Debug\net6.0\staticwebassets.development.json
+D:\temp\LoginRegisterProject\obj\Debug\net6.0\staticwebassets\msbuild.LoginRegisterProject.Microsoft.AspNetCore.StaticWebAssets.props
+D:\temp\LoginRegisterProject\obj\Debug\net6.0\staticwebassets\msbuild.build.LoginRegisterProject.props
+D:\temp\LoginRegisterProject\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.LoginRegisterProject.props
+D:\temp\LoginRegisterProject\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.LoginRegisterProject.props
+D:\temp\LoginRegisterProject\obj\Debug\net6.0\staticwebassets.pack.json
+D:\temp\LoginRegisterProject\obj\Debug\net6.0\scopedcss\bundle\LoginRegisterProject.styles.css
+D:\temp\LoginRegisterProject\obj\Debug\net6.0\LoginRegisterProject.dll
+D:\temp\LoginRegisterProject\obj\Debug\net6.0\refint\LoginRegisterProject.dll
+D:\temp\LoginRegisterProject\obj\Debug\net6.0\LoginRegisterProject.pdb
+D:\temp\LoginRegisterProject\obj\Debug\net6.0\LoginRegisterProject.genruntimeconfig.cache
+D:\temp\LoginRegisterProject\obj\Debug\net6.0\ref\LoginRegisterProject.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\Humanizer.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\temp\LoginRegisterProject\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\temp\LoginRegisterProject\obj\Debug\net6.0\LoginRegisterProject.csproj.AssemblyReference.cache
+D:\temp\LoginRegisterProject\obj\Debug\net6.0\LoginRegisterProject.RazorAssemblyInfo.cache
+D:\temp\LoginRegisterProject\obj\Debug\net6.0\LoginRegisterProject.RazorAssemblyInfo.cs
+D:\temp\LoginRegisterProject\obj\Debug\net6.0\LoginReg.A54AD959.Up2Date
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\appsettings.json
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\LoginRegisterProject.staticwebassets.runtime.json
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\LoginRegisterProject.exe
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\LoginRegisterProject.deps.json
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\LoginRegisterProject.runtimeconfig.json
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\LoginRegisterProject.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\LoginRegisterProject.pdb
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\obj\Debug\net6.0\LoginRegisterProject.csproj.AssemblyReference.cache
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\obj\Debug\net6.0\LoginRegisterProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\obj\Debug\net6.0\LoginRegisterProject.AssemblyInfoInputs.cache
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\obj\Debug\net6.0\LoginRegisterProject.AssemblyInfo.cs
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\obj\Debug\net6.0\LoginRegisterProject.csproj.CoreCompileInputs.cache
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\obj\Debug\net6.0\LoginRegisterProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\obj\Debug\net6.0\LoginRegisterProject.RazorAssemblyInfo.cache
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\obj\Debug\net6.0\LoginRegisterProject.RazorAssemblyInfo.cs
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\obj\Debug\net6.0\LoginRegisterProject.sourcelink.json
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\obj\Debug\net6.0\staticwebassets\msbuild.LoginRegisterProject.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\obj\Debug\net6.0\staticwebassets\msbuild.build.LoginRegisterProject.props
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.LoginRegisterProject.props
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.LoginRegisterProject.props
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\obj\Debug\net6.0\scopedcss\bundle\LoginRegisterProject.styles.css
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\obj\Debug\net6.0\LoginReg.A54AD959.Up2Date
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\obj\Debug\net6.0\LoginRegisterProject.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\obj\Debug\net6.0\refint\LoginRegisterProject.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\obj\Debug\net6.0\LoginRegisterProject.pdb
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\obj\Debug\net6.0\LoginRegisterProject.genruntimeconfig.cache
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\obj\Debug\net6.0\ref\LoginRegisterProject.dll
+C:\Users\Şahin\Desktop\BEU\Müasir Proqramlaşdırma Dilləri\LoginRegisterProject\bin\Debug\net6.0\libman.json
