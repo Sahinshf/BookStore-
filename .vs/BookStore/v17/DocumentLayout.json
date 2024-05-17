@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\\u015Eahin\\Desktop\\BEU\\M\u00FCasir Proqramla\u015Fd\u0131rma Dill\u0259ri\\BookStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{946AA733-B5C5-4DE5-85FA-4CB3AB3EFD91}|BookStore.csproj|c:\\users\\\u015Fahin\\desktop\\beu\\m\u00FCasir proqramla\u015Fd\u0131rma dill\u0259ri\\bookstore\\migrations\\20240516002258_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{946AA733-B5C5-4DE5-85FA-4CB3AB3EFD91}|BookStore.csproj|solutionrelative:migrations\\20240516002258_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u015Eahin\\Desktop\\BEU\\M\u00FCasir Proqramla\u015Fd\u0131rma Dill\u0259ri\\BookStore\\Migrations\\20240517064343_ModelsAdded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240517064343_ModelsAdded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{946AA733-B5C5-4DE5-85FA-4CB3AB3EFD91}|BookStore.csproj|c:\\users\\\u015Fahin\\desktop\\beu\\m\u00FCasir proqramla\u015Fd\u0131rma dill\u0259ri\\bookstore\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{946AA733-B5C5-4DE5-85FA-4CB3AB3EFD91}|BookStore.csproj|solutionrelative:context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{946AA733-B5C5-4DE5-85FA-4CB3AB3EFD91}|BookStore.csproj|c:\\users\\\u015Fahin\\desktop\\beu\\m\u00FCasir proqramla\u015Fd\u0131rma dill\u0259ri\\bookstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{946AA733-B5C5-4DE5-85FA-4CB3AB3EFD91}|BookStore.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{946AA733-B5C5-4DE5-85FA-4CB3AB3EFD91}|BookStore.csproj|c:\\users\\\u015Fahin\\desktop\\beu\\m\u00FCasir proqramla\u015Fd\u0131rma dill\u0259ri\\bookstore\\models\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{946AA733-B5C5-4DE5-85FA-4CB3AB3EFD91}|BookStore.csproj|solutionrelative:models\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{946AA733-B5C5-4DE5-85FA-4CB3AB3EFD91}|BookStore.csproj|c:\\users\\\u015Fahin\\desktop\\beu\\m\u00FCasir proqramla\u015Fd\u0131rma dill\u0259ri\\bookstore\\models\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{946AA733-B5C5-4DE5-85FA-4CB3AB3EFD91}|BookStore.csproj|solutionrelative:models\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{946AA733-B5C5-4DE5-85FA-4CB3AB3EFD91}|BookStore.csproj|c:\\users\\\u015Fahin\\desktop\\beu\\m\u00FCasir proqramla\u015Fd\u0131rma dill\u0259ri\\bookstore\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{946AA733-B5C5-4DE5-85FA-4CB3AB3EFD91}|BookStore.csproj|solutionrelative:models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{946AA733-B5C5-4DE5-85FA-4CB3AB3EFD91}|BookStore.csproj|c:\\users\\\u015Fahin\\desktop\\beu\\m\u00FCasir proqramla\u015Fd\u0131rma dill\u0259ri\\bookstore\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{946AA733-B5C5-4DE5-85FA-4CB3AB3EFD91}|BookStore.csproj|solutionrelative:models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{946AA733-B5C5-4DE5-85FA-4CB3AB3EFD91}|BookStore.csproj|c:\\users\\\u015Fahin\\desktop\\beu\\m\u00FCasir proqramla\u015Fd\u0131rma dill\u0259ri\\bookstore\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{946AA733-B5C5-4DE5-85FA-4CB3AB3EFD91}|BookStore.csproj|solutionrelative:models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{946AA733-B5C5-4DE5-85FA-4CB3AB3EFD91}|BookStore.csproj|c:\\users\\\u015Fahin\\desktop\\beu\\m\u00FCasir proqramla\u015Fd\u0131rma dill\u0259ri\\bookstore\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,14 +43,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20240516002258_init.cs",
-              "DocumentMoniker": "C:\\Users\\\u015Eahin\\Desktop\\BEU\\M\u00FCasir Proqramla\u015Fd\u0131rma Dill\u0259ri\\BookStore\\Migrations\\20240516002258_init.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240516002258_init.cs",
-              "ToolTip": "C:\\Users\\\u015Eahin\\Desktop\\BEU\\M\u00FCasir Proqramla\u015Fd\u0131rma Dill\u0259ri\\BookStore\\Migrations\\20240516002258_init.cs",
-              "RelativeToolTip": "Migrations\\20240516002258_init.cs",
+              "Title": "20240517064343_ModelsAdded.cs",
+              "DocumentMoniker": "C:\\Users\\\u015Eahin\\Desktop\\BEU\\M\u00FCasir Proqramla\u015Fd\u0131rma Dill\u0259ri\\BookStore\\Migrations\\20240517064343_ModelsAdded.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240517064343_ModelsAdded.cs",
+              "ToolTip": "C:\\Users\\\u015Eahin\\Desktop\\BEU\\M\u00FCasir Proqramla\u015Fd\u0131rma Dill\u0259ri\\BookStore\\Migrations\\20240517064343_ModelsAdded.cs",
+              "RelativeToolTip": "Migrations\\20240517064343_ModelsAdded.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T00:22:59.011Z",
+              "WhenOpened": "2024-05-17T06:43:43.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "About.cs",
+              "DocumentMoniker": "C:\\Users\\\u015Eahin\\Desktop\\BEU\\M\u00FCasir Proqramla\u015Fd\u0131rma Dill\u0259ri\\BookStore\\Models\\About.cs",
+              "RelativeDocumentMoniker": "Models\\About.cs",
+              "ToolTip": "C:\\Users\\\u015Eahin\\Desktop\\BEU\\M\u00FCasir Proqramla\u015Fd\u0131rma Dill\u0259ri\\BookStore\\Models\\About.cs",
+              "RelativeToolTip": "Models\\About.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T06:42:38.606Z",
               "EditorCaption": ""
             },
             {
@@ -53,45 +74,62 @@
               "RelativeDocumentMoniker": "Context\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\\u015Eahin\\Desktop\\BEU\\M\u00FCasir Proqramla\u015Fd\u0131rma Dill\u0259ri\\BookStore\\Context\\AppDbContext.cs",
               "RelativeToolTip": "Context\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T00:20:14.811Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\\u015Eahin\\Desktop\\BEU\\M\u00FCasir Proqramla\u015Fd\u0131rma Dill\u0259ri\\BookStore\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\\u015Eahin\\Desktop\\BEU\\M\u00FCasir Proqramla\u015Fd\u0131rma Dill\u0259ri\\BookStore\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-16T00:17:50.304Z"
+              "WhenOpened": "2024-05-17T06:41:22.23Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\\u015Eahin\\Desktop\\BEU\\M\u00FCasir Proqramla\u015Fd\u0131rma Dill\u0259ri\\BookStore\\Models\\Common\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "Models\\Common\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\\u015Eahin\\Desktop\\BEU\\M\u00FCasir Proqramla\u015Fd\u0131rma Dill\u0259ri\\BookStore\\Models\\Common\\BaseEntity.cs",
-              "RelativeToolTip": "Models\\Common\\BaseEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAfAAAA",
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\\u015Eahin\\Desktop\\BEU\\M\u00FCasir Proqramla\u015Fd\u0131rma Dill\u0259ri\\BookStore\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\\u015Eahin\\Desktop\\BEU\\M\u00FCasir Proqramla\u015Fd\u0131rma Dill\u0259ri\\BookStore\\Models\\Cart.cs",
+              "RelativeToolTip": "Models\\Cart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T00:04:41.568Z"
+              "WhenOpened": "2024-05-17T06:41:14.645Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Users\\\u015Eahin\\Desktop\\BEU\\M\u00FCasir Proqramla\u015Fd\u0131rma Dill\u0259ri\\BookStore\\Models\\Contact.cs",
+              "RelativeDocumentMoniker": "Models\\Contact.cs",
+              "ToolTip": "C:\\Users\\\u015Eahin\\Desktop\\BEU\\M\u00FCasir Proqramla\u015Fd\u0131rma Dill\u0259ri\\BookStore\\Models\\Contact.cs",
+              "RelativeToolTip": "Models\\Contact.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T06:39:58.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\\u015Eahin\\Desktop\\BEU\\M\u00FCasir Proqramla\u015Fd\u0131rma Dill\u0259ri\\BookStore\\Models\\Book.cs",
               "RelativeDocumentMoniker": "Models\\Book.cs",
               "ToolTip": "C:\\Users\\\u015Eahin\\Desktop\\BEU\\M\u00FCasir Proqramla\u015Fd\u0131rma Dill\u0259ri\\BookStore\\Models\\Book.cs",
               "RelativeToolTip": "Models\\Book.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T00:03:27.953Z"
+              "WhenOpened": "2024-05-17T06:38:51.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Author.cs",
+              "DocumentMoniker": "C:\\Users\\\u015Eahin\\Desktop\\BEU\\M\u00FCasir Proqramla\u015Fd\u0131rma Dill\u0259ri\\BookStore\\Models\\Author.cs",
+              "RelativeDocumentMoniker": "Models\\Author.cs",
+              "ToolTip": "C:\\Users\\\u015Eahin\\Desktop\\BEU\\M\u00FCasir Proqramla\u015Fd\u0131rma Dill\u0259ri\\BookStore\\Models\\Author.cs",
+              "RelativeToolTip": "Models\\Author.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T06:38:06.773Z",
+              "EditorCaption": ""
             }
           ]
         }
