@@ -1,0 +1,70 @@
+﻿@using BookStore.Models
+@model Book
+
+<!-- Single Product Area Start -->
+<div class="single-product-area section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-7">
+                <div class="single-product-image-inner">
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="one">
+                            <a class="venobox" href="img/single-product/bg-1.jpg" data-gall="gallery" title="">
+                                <img src="~/assets/img/book/@Model.Image" alt="" style="width: 260px; height: 390px">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9 col-sm-5">
+                <div class="single-product-details">
+                    <h2>@Model.Title</h2>
+
+                    <p>@Model.Description </p>
+                    <div class="single-product-price">
+                        <h2>$@Model.Price</h2>
+                    </div>
+                    <div class="product-attributes clearfix">
+
+                        <form asp-controller="Cart" asp-action="AddToCart" method="post">
+
+                            <span class="pull-left" id="quantity-wanted-p" style="border-radius: 20px">
+                                <span class="dec qtybutton">-</span>
+                                <input type="text" value="1" class="cart-plus-minus-box" id="quantity" name="quantity">
+                                <span class="inc qtybutton">+</span>
+                            </span>
+                            <span>
+                                <input type="hidden" name="bookId" value="@Model.Id" />
+                                <button type="submit" class="cart-btn btn-default">
+                                    <i class="flaticon-shop"></i>
+                                    Add to cart
+                                </button>
+                            </span>
+                        </form>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-9">
+                <div class="p-details-tab-content">
+                    <div class="p-details-tab">
+                        <ul class="p-details-nav-tab" role="tablist">
+                            <li role="presentation" class="active"><a href="#more-info" aria-controls="more-info" role="tab" data-toggle="tab">Description</a></li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="tab-content review">
+                        <div role="tabpanel" class="tab-pane active" id="more-info">
+                            <p>@Model.Description</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Single Product Area End -->

@@ -1,7 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace LoginRegisterProject.Models;
+namespace BookStore.Models;
 
 public class AppUser : IdentityUser
 {
+    public bool IsActive { get; set; } = true;
 }

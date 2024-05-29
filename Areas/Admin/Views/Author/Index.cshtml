@@ -1,0 +1,57 @@
+﻿@using BookStore.Models
+@model List<Author>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+
+        <div class="card-body">
+            <h4 class="card-title">Categories</h4>
+
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Image</th>
+                            <th>Name</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    <img src="~/assets/img/author/@item.Image" class="img-thumbnail" alt="@item.Name" style="width: 150px; height: 150px; object-fit: cover;" />
+                                </td>
+                                <td>@item.Name</td>
+                                <td>
+                                    <a class="btn btn-success btn-sm mr-2" asp-action="Details" asp-route-id="@item.Id">
+                                        <i class="fa fa-eye"></i> Detail
+                                    </a>
+                                    <a class="btn btn-warning btn-sm mr-2" asp-action="Update" asp-route-id="@item.Id">
+                                        <i class="fa fa-edit"></i> Update
+                                    </a>
+                                    <form method="post" class="d-inline">
+                                        <button class="btn btn-danger btn-sm" type="submit" asp-action="Delete" asp-route-id="@item.Id">
+                                            <i class="fa fa-trash"></i> Delete
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <a class="btn btn-primary mt-3" asp-action="Create">
+                    <i class="fa fa-plus"></i> Create
+                </a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Include Font Awesome for the icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMd3I5A6bftbGFNUFt96E7pa/aHBEyVtVXM5J9J" crossorigin="anonymous" />

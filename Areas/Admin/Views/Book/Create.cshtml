@@ -1,0 +1,133 @@
+﻿@using BookStore.Areas.Admin.ViewModels.Book
+@model BookViewModel
+@{
+    ViewData["Title"] = "Create Book";
+}
+
+<div class="content-wrapper">
+    <div class="row">
+        <div class="col-md-8 offset-md-2 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Create New Book</h4>
+                    <p class="card-description">Fill out the form to add a new Book.</p>
+
+                    <form class="forms-sample" enctype="multipart/form-data" method="post">
+
+                        <div class="form-group">
+                            <label for="imageInput">Book Image</label>
+                            <input type="file" class="form-control" id="imageInput" asp-for="Image" accept="image/*">
+                            <span class="text-danger" asp-validation-for="Image"></span>
+                        </div>
+
+                        <img style="width:200px; height: 250px; display: none; margin-bottom:20px" id="blah" src="#" alt="your image" />
+
+                        <div class="form-group">
+                            <label for="nameInput">Book Name</label>
+                            <input type="text" class="form-control" id="nameInput" asp-for="Title" placeholder="Enter book name">
+                            <span class="text-danger" asp-validation-for="Title"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="nameInput">Book Quantity</label>
+                            <input type="number" class="form-control" id="nameInput" asp-for="StockQuantity" placeholder="Enter book quantity">
+                            <span class="text-danger" asp-validation-for="StockQuantity"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="nameInput">Book Price</label>
+                            <input type="number" class="form-control" id="nameInput" asp-for="Price" placeholder="Enter book price">
+                            <span class="text-danger" asp-validation-for="Price"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="authorSelect">Author</label>
+                            <select class="form-control" id="authorSelect" asp-for="SelectedAuthorId">
+                                @foreach (var author in Model.Authors)
+                                {
+                                    <option value="@author.Id">@author.Name</option>
+                                }
+                            </select>
+                            <span class="text-danger" asp-validation-for="SelectedAuthorId"></span>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="descriptionInput">Book Description</label>
+                            <textarea id="descriptionInput" class="form-control" asp-for="Description" placeholder="Enter Book description"></textarea>
+                            <span class="text-danger" asp-validation-for="Description"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary mr-2">Create</button>
+                        <a class="btn btn-secondary" asp-action="Index">Cancel</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .content-wrapper {
+        padding: 20px;
+    }
+
+    .card {
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-title {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .card-description {
+        margin-bottom: 1.5rem;
+        color: #6c757d;
+    }
+
+    .form-group label {
+        font-weight: 500;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        padding: 0.75rem;
+        border-radius: 4px;
+        border: 1px solid #ced4da;
+    }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            border-color: #80bdff;
+            outline: none;
+            box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+        }
+
+    .btn {
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+    }
+</style>
+
+<script>
+    window.onload = function () {
+        const imageInput = document.getElementById('imageInput');
+        const blah = document.getElementById('blah');
+
+        if (!imageInput.files.length) {
+            blah.style.display = 'none';
+        }
+
+        imageInput.onchange = evt => {
+            const [file] = imageInput.files;
+            if (file) {
+                blah.style.display = 'block';
+                blah.src = URL.createObjectURL(file);
+            } else {
+                blah.style.display = 'none';
+            }
+        }
+    };
+</script>

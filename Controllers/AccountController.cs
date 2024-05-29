@@ -1,9 +1,9 @@
-﻿using LoginRegisterProject.Models;
-using LoginRegisterProject.Utils;
-using LoginRegisterProject.ViewModels;
+﻿using BookStore.Models;
+using BookStore.Utils;
+using BookStore.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-namespace LoginRegisterProject.Controllers;
+namespace BookStore.Controllers;
 
 public class AccountController : Controller
 {
@@ -91,7 +91,12 @@ public class AccountController : Controller
             ModelState.AddModelError("", "Password or Username invalid ");
             return View();
         }
-      
+
+        if (!user.IsActive)
+        {
+            ModelState.AddModelError("", "User is blocked ");
+            return View();
+        }
 
         //var signInResult = await _signInManager.PasswordSignInAsync(loginViewModel.UserName, loginViewModel.Password, loginViewModel.RememberMe, true)
         var signInResult = await _signInManager.PasswordSignInAsync(loginViewModel.UserName, loginViewModel.Password, true, true); //useri login etmək

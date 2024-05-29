@@ -1,4 +1,4 @@
-﻿using LoginRegisterProject.Models.Common;
+﻿using BookStore.Models.Common;
 
 namespace BookStore.Models;
 

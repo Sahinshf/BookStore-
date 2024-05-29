@@ -1,22 +1,43 @@
-﻿<!-- Banner Area Start -->
-<div class="slider-area">
-    <div style="width:100%; height:auto; background-image:url('@Url.Content("~/images/slider/6.jpg")'); background-repeat:repeat; background-size:contain; background-position:center;">
+﻿@using BookStore.Models
+@model List<Author>
 
-        <div id="slider-direction-1" class="text-center" style="padding:150px;">
-            <!-- layer 1 -->
-            <div class="layer-1">
-                <h2 class="title-1">
-                    Welcome to our Author page! Here, YOU can find information about our featured author:
-                </h2>
-            </div>
-            <!-- layer 2 -->
-            <div class="layer-2">
-                <p class="title-2">
-                    Author Bio:Users can read a comprehensive biography of the author, providing insights into their background, accomplishments, and interests. Learn about the author's journey, their inspiration for writing, and what drives their passion for storytelling.
-                </p>
-          
+<!-- Shop Area Start -->
+<div class="shopping-area section-padding">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="shop-tab-area">
+
+                    <div class="tab-content">
+                        <div class="row tab-pane fade in active" id="home">
+                            <div class="shop-single-product-area">
+
+                                @foreach (var author in Model)
+                                {
+
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="single-banner">
+                                            <div class="product-wrapper">
+                                                <a asp-action="Details" asp-route-id="@author.Id" class="single-banner-image-wrapper">
+                                                    <img alt="" src="~/assets/img/author/@author.Image" style="width:270px; height:350px;">
+                                                </a>
+                                            </div>
+                                            <div class="banner-bottom text-center">
+                                                <div class="banner-bottom-title">
+                                                    <a asp-action="Details" asp-route-id="@author.Id">@author.Name</a>
+                                                    <p style="padding: 4px; display: -webkit-box; overflow:hidden; -webkit-line-clamp:3; -webkit-box-orient:vertical; text-overflow:ellipsis">@author.Description</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
-<!-- Banner Area End-->
+<!-- Shop Area End -->

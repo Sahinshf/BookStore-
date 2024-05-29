@@ -14,6 +14,23 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\assets\img\author\" />
+    <Folder Include="wwwroot\assets\img\book\" />
+    <Folder Include="wwwroot\images\authors\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\admin\fonts\.DS_Store" />
+    <None Include="wwwroot\assets\admin\fonts\Roboto\.DS_Store" />
+    <None Include="wwwroot\assets\admin\images\.DS_Store" />
+    <None Include="wwwroot\assets\admin\images\auth\.DS_Store" />
+    <None Include="wwwroot\assets\admin\images\faces\.DS_Store" />
+    <None Include="wwwroot\assets\admin\js\.DS_Store" />
+    <None Include="wwwroot\assets\admin\vendors\.DS_Store" />
   </ItemGroup>
 
 </Project>

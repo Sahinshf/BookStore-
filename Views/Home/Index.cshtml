@@ -1,42 +1,278 @@
-﻿<!-- Banner Area Start -->
-<div class="slider-area">
-    <div style="width:100%; height:auto; background-image:url('@Url.Content("~/images/slider/6.jpg")'); background-repeat:repeat; background-size:contain; background-position:center;">
+﻿@using BookStore.ViewModels
+@model HomeViewModel
 
-        <div id="slider-direction-1" class="text-center" style="padding:150px;">
+<!-- slider Area Start -->
+<div class="slider-area">
+    <div class="bend niceties preview-1">
+        <div id="ensign-nivoslider" class="slides" style="height:700px">
+            <img src="~/images/slider/banner.jpg" alt="" title="#slider-direction-1" style="height:700px" />
+            <img src="~/images/slider/banner 2.jpg" alt="" title="#slider-direction-2" style="height:700px" />
+        </div>
+        <!-- direction 1 -->
+        <div id="slider-direction-1" class="text-center slider-direction">
             <!-- layer 1 -->
             <div class="layer-1">
-                <h2 class="title-1">
-                    Welcome to our Home page! Here, you'll find:
-                </h2>
+                <h2 class="title-1">LET’S WRITE IMAGINE</h2>
             </div>
             <!-- layer 2 -->
             <div class="layer-2">
-                <p class="title-2">
-                    Banner Section: Get greeted by our welcoming banner, inviting you to explore our vast collection of books.
-                </p>
-                <p class="title-2">
-                    Statistic Section: Stay informed with our latest book statistics, including the total number of books available and the most popular genres.
-                </p>
-                <p class="title-2">
-                    Service Section: Enjoy hassle-free shopping with our free shipping service and other customer-friendly features.
-                </p>
-                <p class="title-2">
-                    Books Section: Discover our top-selling books, carefully selected to provide you with the best reading experience.
-                </p>
+                <p class="title-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
-
             <!-- layer 3 -->
-            @*    <div class="layer-3">
+            @*  <div class="layer-3">
             <a href="#" class="title-3">SEE MORE</a>
             </div> *@
             <!-- layer 4 -->
-            @*             <div class="layer-4">
+            @* <div class="layer-4">
             <form action="#" class="title-4">
             <input type="text" placeholder="Enter your book title here">
             <button type="submit"><i class="fa fa-search"></i></button>
             </form>
             </div> *@
         </div>
+        @* <!-- direction 2 -->
+        <div id="slider-direction-2" class="slider-direction">
+        <!-- layer 1 -->
+        <div class="layer-1">
+        <h2 class="title-1">LET’S WRITE IMAGINE</h2>
+        </div>
+        <!-- layer 2 -->
+        <div class="layer-2">
+        <p class="title-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <!-- layer 3 -->
+        <div class="layer-3">
+        <a href="#" class="title-3">SEE MORE</a>
+        </div>
+        <!-- layer 4 -->
+        <div class="layer-4">
+        <form action="#" class="title-4">
+        <input type="text" placeholder="Enter your book title here">
+        <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+        </div>
+        </div> *@
     </div>
 </div>
-<!-- Banner Area End-->
+<!-- slider Area End-->
+<!-- Online Banner Area Start -->
+<div class="online-banner-area">
+    <div class="container">
+        <div class="banner-title text-center">
+            <h2> <span>BOOK STORE</span></h2>
+            <p>The Books Guide is the biggest big store and the biggest books library in the world that has alot of the popular and the most top category books presented here. Top Authors are here just subscribe your email address and get updated with us.</p>
+        </div>
+        <div class="row">
+            <div class="banner-list">
+
+
+                <div class="row">
+
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="shop-tab-area">
+
+                            <div class="tab-content">
+                                <div class="row tab-pane fade in active" id="home">
+                                    <div class="shop-single-product-area">
+
+                                        @foreach (var book in Model.Books)
+                                        {
+
+                                            <div class="col-md-3 col-sm-6">
+                                                <div class="single-banner">
+                                                    <div class="product-wrapper">
+                                                        <a asp-action="Details" asp-controller="Book" asp-route-id="@book.Id" class="single-banner-image-wrapper">
+                                                            <img alt="" src="~/assets/img/book/@book.Image" style="width:270px; height:390px;">
+                                                            <div class="price" style="padding: 5px 10px; background-color:greenyellow; border-radius: 10px;"><span>$</span>@book.Price</div>
+                                                        </a>
+                                                        <div class="product-description">
+                                                            <div class="functional-buttons">
+
+                                                                <form asp-action="AddToCart" asp-controller="Cart" method="post">
+                                                                    <input type="hidden" name="quantity" value="1" />
+                                                                    <input type="hidden" name="bookId" value="@book.Id" />
+                                                                    <button type="submit" style="border-radius:100% ; font-size: 2.5rem ; padding: 4px 10px">
+                                                                        <i class="fa-2xl fa fa-shopping-cart"></i>
+                                                                    </button>
+                                                                </form>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="banner-bottom text-center">
+                                                        <div class="banner-bottom-title">
+                                                            <a asp-action="Details" asp-controller="Book" asp-route-id="@book.Id">@book.Title</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        }
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Online Banner Area End -->
+<!-- Shop Info Area Start -->
+<div class="shop-info-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <div class="single-shop-info">
+                    <div class="shop-info-icon">
+                        <i class="flaticon-transport"></i>
+                    </div>
+                    <div class="shop-info-content">
+                        <h2>FREE SHIPPING</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. </p>
+                        <a href="#">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="single-shop-info">
+                    <div class="shop-info-icon">
+                        <i class="flaticon-money"></i>
+                    </div>
+                    <div class="shop-info-content">
+                        <h2>THE BEST PRICE</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. </p>
+                        <a href="#">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 hidden-sm">
+                <div class="single-shop-info">
+                    <div class="shop-info-icon">
+                        <i class="flaticon-school"></i>
+                    </div>
+                    <div class="shop-info-content">
+                        <h2>QUALITY</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. </p>
+                        <a href="#">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Shop Info Area End -->
+<!-- Featured Product Area Start -->
+<div class="featured-product-area section-padding">
+    <h2 class="section-title">FEATURED PRODUCTS</h2>
+    <div class="container">
+
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="tab-menu">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="first-item active">
+                            <a href="#arrival" aria-controls="arrival" role="tab" data-toggle="tab">New Arrival</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#sale" aria-controls="sale" role="tab" data-toggle="tab">BEST SELLERS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="shopping-area section-padding">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="shop-tab-area">
+
+                            <div class="tab-content">
+                                <div class="row tab-pane fade in active" id="home">
+                                    <div class="shop-single-product-area">
+
+                                        @foreach (var author in Model.Authors)
+                                        {
+
+                                            <div class="col-md-3 col-sm-6">
+                                                <div class="single-banner">
+                                                    <div class="product-wrapper">
+                                                        <a asp-action="Details" asp-controller="Author" asp-route-id="@author.Id" class="single-banner-image-wrapper">
+                                                            <img alt="" src="~/assets/img/author/@author.Image" style="width:270px; height:350px;">
+                                                        </a>
+                                                    </div>
+                                                    <div class="banner-bottom text-center">
+                                                        <div class="banner-bottom-title">
+                                                            <a asp-action="Details" asp-controller="Author" asp-route-id="@author.Id">@author.Name</a>
+                                                            <p style="padding: 4px; display: -webkit-box; overflow:hidden; -webkit-line-clamp:3; -webkit-box-orient:vertical; text-overflow:ellipsis">@author.Description</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Featured Product Area End -->
+<!-- Counter Area Start -->
+<div class="counter-area section-padding text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <div class="single-counter wow" data-wow-duration="1.5s" data-wow-delay=".3s">
+                    <div class="counter-info">
+                        <span class="fcount">
+                            <span class="counter">3725</span>
+                        </span>
+                        <h3>BOOKS READ</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <div class="single-counter wow" data-wow-duration="1.5s" data-wow-delay=".3s">
+                    <div class="counter-info">
+                        <span class="fcount">
+                            <span class="counter">950</span>
+                        </span>
+                        <h3>ONLINE USERS</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <div class="single-counter wow" data-wow-duration="1.5s" data-wow-delay=".3s">
+                    <div class="counter-info">
+                        <span class="fcount">
+                            <span class="counter">1450</span>
+                        </span>
+                        <h3>BEST AUTHORS</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <div class="single-counter wow" data-wow-duration="1.5s" data-wow-delay=".3s">
+                    <div class="counter-info">
+                        <span class="fcount">
+                            <span class="counter">62</span>
+                        </span>
+                        <h3>AWARDS</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Counter Area End -->

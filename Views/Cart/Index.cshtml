@@ -1,30 +1,159 @@
-﻿<!-- Banner Area Start -->
-<div class="slider-area">
-    <div style="width:100%; height:auto; background-image:url('@Url.Content("~/images/slider/6.jpg")'); background-repeat:repeat; background-size:contain; background-position:center;">
+﻿@model BookStore.Models.Cart
 
-        <div id="slider-direction-1" class="text-center" style="padding:150px;">
-            <!-- layer 1 -->
-            <div class="layer-1">
-                <h2 class="title-1">
-                    Welcome to your Cart! Here's what you can do on this page:
-                </h2>
-            </div>
-            <!-- layer 2 -->
-            <div class="layer-2">
-                <p class="title-2">
-                    View Your Items:
-                    See a summary of all the items you've added to your cart, including quantity, price, and total cost.
-                </p>
-                <p class="title-2">
-                    Edit Your Cart:
-                    Update the quantity of items, remove items, or continue shopping to add more items to your cart.
-                </p>
-                <p class="title-2">
-                    Order Summary:
-                    Get a final overview of your order, including the total cost, shipping information, and estimated delivery date.
-                </p>
+@{
+    ViewBag.Title = "Shopping Cart";
+}
+
+<div class="shopping-cart-area section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="wishlist-table-area table-responsive">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th class="product-remove">Remove</th>
+                                <th class="product-image">Image</th>
+                                <th class="t-product-name">Product Name</th>
+                                <th class="product-unit-price">Unit Price</th>
+                                <th class="product-quantity">Quantity</th>
+                                <th class="product-subtotal">Subtotal</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.CartItems)
+                            {
+                                <tr>
+                                    <td class="product-remove">
+                                        <form method="post" asp-action="RemoveFromCart" asp-route-bookId="@item.BookId">
+                                            <button type="submit" class="btn btn-link">
+                                                <i class="flaticon-delete"></i>
+                                            </button>
+                                        </form>
+                                    </td>
+                                    <td class="product-image">
+                                        <a asp-controller="Book" asp-action="Details" asp-route-id="@item.Book.Id">
+                                            <img src="~/assets/img/book/@item.Book.Image" alt="@item.Book.Title" style="width:120px; height:180px; border-radius: 8px; border:1px white solid; padding:0px; margin:25px 0px;" />
+                                        </a>
+                                    </td>
+                                    <td class="t-product-name">
+                                        <h3>
+                                            <a href="#">@item.Book.Title</a>
+                                        </h3>
+                                    </td>
+                                    <td class="product-unit-price">
+                                        <p>@(item.Book.Price.ToString("C"))</p>
+                                    </td>
+                                    <td class="product-quantity product-cart-details">
+                                        <form asp-controller="Cart" asp-action="UpdateCartItem" method="post">
+                                            <div>
+                                                <input type="hidden" name="bookId" value="@item.Book.Id" />
+                                                <div class="quantity-container" style="display:flex; gap:10px; justify-content:center; align-items:center;">
+                                                    <button type="submit" class="quantity-control decrement" name="quantity" value="@(item.Quantity - 1)">-</button>
+                                                    <p class="quantity-input" style="margin-top:14px">@item.Quantity</p>
+                                                    <button type="submit" class="quantity-control increment" name="quantity" value="@(item.Quantity + 1)">+</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </td>
+                                    <td class="product-subtotal">
+                                        <p>@((item.Book.Price * item.Quantity).ToString("C"))</p>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
 </div>
-<!-- Banner Area End-->
+
+<!-- Discount Area Start -->
+<div class="discount-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6">
+                <div class="subtotal-main-area">
+                    <div class="subtotal-area">
+                        <h2>SUBTOTAL<span>@(Model.CartItems.Sum(item => item.Book.Price * item.Quantity).ToString("C"))</span></h2>
+                    </div>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#checkoutModal">CHECKOUT</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Discount Area End -->
+<!-- Checkout Modal Start -->
+<div class="modal fade" id="checkoutModal" tabindex="-1" role="dialog" aria-labelledby="checkoutModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="checkoutModalLabel">Confirm Checkout</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="checkout-summary">
+                    <h4>Are you sure you want to checkout?</h4>
+                    <p>Here is the summary of your cart:</p>
+                    <ul class="list-group">
+                        @foreach (var item in Model.CartItems)
+                        {
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <div class="item-details">
+                                    <h6>@item.Book.Title</h6>
+                                    <small>Quantity: @item.Quantity</small>
+                                </div>
+                                <span class="item-price">@((item.Book.Price * item.Quantity).ToString("C"))</span>
+                            </li>
+                        }
+                    </ul>
+                    <hr>
+                    <div class="total-price d-flex justify-content-between">
+                        <h5>Total</h5>
+                        <h5>@(Model.CartItems.Sum(item => item.Book.Price * item.Quantity).ToString("C"))</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <form asp-controller="Cart" asp-action="ConfirmCheckout" method="post">
+                    <button type="submit" class="btn btn-primary">Confirm</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Checkout Modal End -->
+
+
+<style>
+    .checkout-summary .list-group-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .checkout-summary .item-details {
+        flex: 1;
+    }
+
+    .checkout-summary .item-price {
+        font-weight: bold;
+        color: #333;
+    }
+
+    .total-price {
+        font-weight: bold;
+    }
+
+    .quantity-container {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+</style>

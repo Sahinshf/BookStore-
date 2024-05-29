@@ -1,0 +1,31 @@
+﻿@using BookStore.Models
+@model Author
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <img src="~/assets/img/author/@Model.Image" class="img-fluid mb-3" alt="@Model.Name" />
+                </div>
+                <div class="col-md-8">
+                    <h2 class="card-title" style="font-size:24px">@Model.Name</h2>
+                    <p class="card-text" style="font-size:18px">@Html.Raw(Model.Description)</p>
+                    <a class="btn btn-primary mt-3" asp-action="Index">Go Back</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@*    <h4><strong>Skills Name :</strong>  </h4>
+            @foreach (var item in Model.Skills)
+            {
+                <h4>
+                    @item.Name - @item.Percentage %
+                </h4>
+            } *@

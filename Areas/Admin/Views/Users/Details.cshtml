@@ -1,0 +1,61 @@
+﻿@using BookStore.Areas.Admin.ViewModels.UserViewModel
+@model AllUserViewModel
+@{
+    ViewData["Title"] = "User Details";
+}
+
+<div class="content-wrapper">
+    <div class="row justify-content-center">
+        <div class="col-lg-6">
+            <div class="card shadow-sm mt-5">
+                <div class="card-body">
+                    <h2 class="card-title text-center">User Details</h2>
+                    <hr>
+                    <div class="mb-3" >
+                        <h4><strong>Email:</strong> @Model.Email</h4>
+                    </div>
+                    <div class="mb-3">
+                        <h4><strong>Username:</strong> @Model.Username</h4>
+                    </div>
+                    <div class="mb-3">
+                        <h4><strong>Role:</strong> @Model.Role</h4>
+                    </div>
+                    <div class="text-center mt-4">
+                        <a class="btn btn-primary" asp-action="Index">Go Back</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .content-wrapper {
+        padding: 20px;
+    }
+
+    .card {
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-title {
+        font-size: 1.75rem;
+        margin-bottom: 1rem;
+    }
+
+    .mb-3 h4 {
+        font-size: 1.25rem;
+    }
+
+    .btn {
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        font-size: 1rem;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+</style>

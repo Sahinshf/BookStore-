@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Success</title>
-    <link rel="stylesheet" href="~/css/success.css"> <!-- Include CSS if needed -->
 </head>
 <body>
-    <div class="container">
-        <h1>Login Successful</h1>
-        <p>Welcome back! You have successfully logged in.</p>
+    <div style="display:flex; align-items:center; justify-content:center; margin-bottom:200px; margin-top:200px; width:100%;">
+        <div class="container" style="text-align:center">
+            <h1>Login Successful</h1>
+            <p>Welcome back! You have successfully logged in.</p>
+            <form asp-controller="Home" asp-action="Index" method="get" style="margin-top:20px;">
+                <button type="submit" style="padding:10px 20px; font-size:16px; cursor:pointer; background-color:aliceblue; border-radius:10px">Go to Home Page</button>
+            </form>
+        </div>
     </div>
 </body>
 </html>

@@ -1,4 +1,4 @@
-﻿@using LoginRegisterProject.ViewModels
+﻿@using BookStore.ViewModels
 @model LoginViewModel
 
 <!DOCTYPE html>
@@ -53,8 +53,9 @@
                         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
                     </form>
-                </div>
+                    <p>Don't Have an account ? <a asp-action="Register">Register</a></p>
 
+                </div>
             </div>
         </div>
     </div>

@@ -1,6 +1,382 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\css\\maps\\style.css.map",
+      "PackagePath": "staticwebassets\\assets\\admin\\css\\maps\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\admin\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Black.eot",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Black.eot"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Black.ttf",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Black.woff",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Black.woff"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Black.woff2",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Black.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Bold.eot",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Bold.eot"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Bold.ttf",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Bold.woff",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Bold.woff"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Bold.woff2",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Bold.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Light.eot",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Light.eot"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Light.ttf",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Light.woff",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Light.woff"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Light.woff2",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Light.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Medium.eot",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Medium.eot"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Medium.ttf",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Medium.woff",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Medium.woff"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Medium.woff2",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Medium.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Regular.eot",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Regular.woff",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Regular.woff2",
+      "PackagePath": "staticwebassets\\assets\\admin\\fonts\\Roboto\\Roboto-Regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\images\\auth\\lockscreen-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\auth\\lockscreen-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\images\\auth\\login-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\auth\\login-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\images\\auth\\register-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\auth\\register-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\images\\faces\\face1.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\images\\faces\\face10.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\images\\faces\\face11.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\images\\faces\\face12.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\images\\faces\\face13.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\images\\faces\\face14.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\images\\faces\\face15.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\images\\faces\\face16.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\images\\faces\\face17.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\images\\faces\\face18.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\images\\faces\\face19.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\images\\faces\\face2.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\images\\faces\\face20.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\images\\faces\\face21.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\images\\faces\\face22.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\images\\faces\\face23.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\images\\faces\\face24.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\images\\faces\\face25.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\images\\faces\\face26.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\images\\faces\\face27.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\images\\faces\\face3.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\images\\faces\\face4.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\images\\faces\\face5.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\images\\faces\\face6.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\images\\faces\\face7.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\images\\faces\\face8.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\images\\faces\\face9.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\images\\logo-mini.svg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\logo-mini.svg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\assets\\admin\\js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\js\\chart.js",
+      "PackagePath": "staticwebassets\\assets\\admin\\js\\chart.js"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\assets\\admin\\js\\dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\js\\data-table.js",
+      "PackagePath": "staticwebassets\\assets\\admin\\js\\data-table.js"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\js\\dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets\\assets\\admin\\js\\dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\js\\documentation.js",
+      "PackagePath": "staticwebassets\\assets\\admin\\js\\documentation.js"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\js\\file-upload.js",
+      "PackagePath": "staticwebassets\\assets\\admin\\js\\file-upload.js"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\js\\hoverable-collapse.js",
+      "PackagePath": "staticwebassets\\assets\\admin\\js\\hoverable-collapse.js"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\js\\jquery.cookie.js",
+      "PackagePath": "staticwebassets\\assets\\admin\\js\\jquery.cookie.js"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\js\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\assets\\admin\\js\\jquery.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\js\\off-canvas.js",
+      "PackagePath": "staticwebassets\\assets\\admin\\js\\off-canvas.js"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\js\\tabs.js",
+      "PackagePath": "staticwebassets\\assets\\admin\\js\\tabs.js"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\js\\template.js",
+      "PackagePath": "staticwebassets\\assets\\admin\\js\\template.js"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\vendors\\base\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\admin\\vendors\\base\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\vendors\\base\\vendor.bundle.base.css",
+      "PackagePath": "staticwebassets\\assets\\admin\\vendors\\base\\vendor.bundle.base.css"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\vendors\\base\\vendor.bundle.base.js",
+      "PackagePath": "staticwebassets\\assets\\admin\\vendors\\base\\vendor.bundle.base.js"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\vendors\\chart.js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\assets\\admin\\vendors\\chart.js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.css",
+      "PackagePath": "staticwebassets\\assets\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets\\assets\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\vendors\\datatables.net\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\assets\\admin\\vendors\\datatables.net\\jquery.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css",
+      "PackagePath": "staticwebassets\\assets\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets\\assets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.svg",
+      "PackagePath": "staticwebassets\\assets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets\\assets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets\\assets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets\\assets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\img\\author\\313b24de-ec8a-4275-9396-ffe585ba2437-Jane Austen.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\author\\313b24de-ec8a-4275-9396-ffe585ba2437-Jane Austen.webp"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\img\\author\\36e2a098-dc4b-4331-ac64-e89f0caafdfc-agatha Christie.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\author\\36e2a098-dc4b-4331-ac64-e89f0caafdfc-agatha Christie.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\img\\author\\8b1bb7c3-9426-40f3-8c6e-7c7826440999-Albert Camus.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\author\\8b1bb7c3-9426-40f3-8c6e-7c7826440999-Albert Camus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\img\\author\\c5ebaf78-2757-4c60-8c31-85b8fa21eea3 - Adam Fawer.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\author\\c5ebaf78-2757-4c60-8c31-85b8fa21eea3 - Adam Fawer.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\img\\author\\ce67b8cd-321b-4e47-ae21-edbae5d78cf4-leo tolstoy.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\author\\ce67b8cd-321b-4e47-ae21-edbae5d78cf4-leo tolstoy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\img\\author\\d23aba43-ca21-49dc-b702-074f30229122-Fyodor Dostoevsky 2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\author\\d23aba43-ca21-49dc-b702-074f30229122-Fyodor Dostoevsky 2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\img\\author\\e736cea6-a7b4-4387-bdae-b69d771faece-Dan Brown.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\author\\e736cea6-a7b4-4387-bdae-b69d771faece-Dan Brown.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\img\\book\\1a5f3436-e04a-4fca-b133-2ec6773f09c9-the death of ivan ilyich.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\book\\1a5f3436-e04a-4fca-b133-2ec6773f09c9-the death of ivan ilyich.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\img\\book\\6b686f8e-2b90-4722-bb44-41f0b6e4b713-prideandprejudice2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\book\\6b686f8e-2b90-4722-bb44-41f0b6e4b713-prideandprejudice2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\img\\book\\7e137b14-feda-4ddc-834c-0ba9f69ab859-War and Peace.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\book\\7e137b14-feda-4ddc-834c-0ba9f69ab859-War and Peace.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\img\\book\\a4cb2333-1652-4ea7-b841-8c64d606e93d - Adam Fawer - Imporable.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\book\\a4cb2333-1652-4ea7-b841-8c64d606e93d - Adam Fawer - Imporable.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\assets\\img\\book\\e480976a-d74f-4667-97c7-e851815b7fdf-the death of ivan ilyich.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\book\\e480976a-d74f-4667-97c7-e851815b7fdf-the death of ivan ilyich.jpg"
+    },
+    {
       "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\css\\animate.css",
       "PackagePath": "staticwebassets\\css\\animate.css"
     },
@@ -11,6 +387,10 @@
     {
       "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\css\\flaticon.css",
       "PackagePath": "staticwebassets\\css\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.css"
     },
     {
       "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\css\\font-awesome.min.css",
@@ -95,10 +475,6 @@
     {
       "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
-    },
-    {
-      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\css\\success.css",
-      "PackagePath": "staticwebassets\\css\\success.css"
     },
     {
       "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\fonts\\Flaticon.eot",
@@ -329,10 +705,6 @@
       "PackagePath": "staticwebassets\\images\\single-product\\bg-3.jpg"
     },
     {
-      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\images\\slider\\1.jpg",
-      "PackagePath": "staticwebassets\\images\\slider\\1.jpg"
-    },
-    {
       "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\images\\slider\\2.jpg",
       "PackagePath": "staticwebassets\\images\\slider\\2.jpg"
     },
@@ -351,6 +723,14 @@
     {
       "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\images\\slider\\6.jpg",
       "PackagePath": "staticwebassets\\images\\slider\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\images\\slider\\banner 2.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\banner 2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\images\\slider\\banner.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\banner.jpg"
     },
     {
       "Id": "C:\\Users\\Şahin\\Desktop\\BEU\\Müasir Proqramlaşdırma Dilləri\\BookStore\\wwwroot\\images\\sport 2.jpg",

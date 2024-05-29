@@ -1,4 +1,4 @@
-﻿namespace LoginRegisterProject.Utils;
+﻿namespace BookStore.Utils;
 
 public enum RoleType : byte
 {

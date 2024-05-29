@@ -12,8 +12,7 @@
     <!-- Google Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Poppins:400,700,600,500,300' rel='stylesheet' type='text/css'>
     <!-- Fontawesome CDN Link -->
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
 
     <!-- all css here -->
     <!-- bootstrap v3.3.6 css -->
@@ -25,7 +24,9 @@
     <!-- meanmenu css -->
     <link rel="stylesheet" href="~/css/meanmenu.min.css">
     <!-- Font-Awesome css -->
-    <link rel="stylesheet" href="~/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/font-awesome.css" />
+    <link rel="stylesheet" href="~/css//font-awesome.min.css" />
+
     <!-- pe-icon-7-stroke css -->
     <link rel="stylesheet" href="~/css/pe-icon-7-stroke.css">
     <!-- Flaticon css -->
@@ -45,18 +46,17 @@
     <!-- modernizr css -->
     <script src="~/js/vendor/modernizr-2.8.3.min.js"></script>
 
-    
-    
+
 </head>
 <body>
-    
+
     <!--Header Area Start-->
     <div class="header-area">
         <div class="container">
             <div class="row">
                 <div class="col-md-2 col-sm-6 col-xs-6">
                     <div class="header-logo">
-                        <a href="index.html">
+                        <a asp-controller="Home" asp-action="Index">
                             <img src="~/images/logo.png" alt="">
                         </a>
                     </div>
@@ -137,7 +137,7 @@
                         <nav>
                             <ul id="nav">
                                 <li><a asp-controller="Home" asp-action="Index">HOME</a></li>
-                                <li><a asp-controller="" asp-action="Index">BOOKS</a></li>
+                                <li><a asp-controller="Book" asp-action="Index">BOOKS</a></li>
                                 <li><a asp-controller="Author" asp-action="Index">AUTHORS</a></li>
                                 <li><a asp-controller="Contact" asp-action="Index">CONTACT</a></li>
                                 <li><a asp-controller="About" asp-action="Index">ABOUT US</a></li>
@@ -149,16 +149,28 @@
                 <div class="col-md-1 hidden-sm">
                     <div class="header-right">
                         <ul>
-                            <li>
-                                <a asp-controller="Account" asp-action="Login"><i class="flaticon-people"></i></a>
-                            </li>
-                            <li class="shoping-cart">
-                                <a asp-action="Index" asp-controller="Cart">
-                                    <i class="flaticon-shop"></i>
-                                    <span>2</span>
-                                </a>
-                               
-                            </li>
+                            @if (!User.Identity.IsAuthenticated)
+                            {
+                                <li>
+                                    <a asp-controller="Account" asp-action="Login"><i class="flaticon-people"></i></a>
+                                </li>
+
+                            }
+                            else
+                            {
+                                <li>
+                                    <a asp-controller="Account" asp-action="Logout"><i class="fa-solid fa-right-from-bracket"></i></a>
+                                </li>
+                                <li class="shoping-cart">
+                                    <a asp-action="Index" asp-controller="Cart">
+                                        <i class="flaticon-shop"></i>
+                                        @await Component.InvokeAsync("Cart")
+                                    </a>
+
+                                </li>
+                            }
+
+
                         </ul>
                     </div>
                 </div>
@@ -202,7 +214,7 @@
         </div>
     </div>
     <!-- Mobile Menu End -->
-        @RenderBody()
+    @RenderBody()
     <!-- Footer Area Start -->
     <footer>
         <div class="footer-top-area">
